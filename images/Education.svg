@@ -1,0 +1,12 @@
+<svg width="500" height="428" viewBox="0 0 500 428" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="7.5" y="40.5" width="485" height="342" stroke="#287DC8" stroke-width="15"/>
+<path d="M53.5 7.5H213C236.472 7.5 255.5 26.5279 255.5 50V382.5H53.5V7.5Z" fill="white" stroke="#287DC8" stroke-width="15"/>
+<path d="M53.5 313.5H221C240.054 313.5 255.5 328.946 255.5 348V382.5H53.5V313.5Z" stroke="#287DC8" stroke-width="15"/>
+<path d="M298 7.5H457.5V382.5H255.5V50C255.5 26.5279 274.528 7.5 298 7.5Z" fill="white" stroke="#287DC8" stroke-width="15"/>
+<line x1="105" y1="99.5" x2="205" y2="99.5" stroke="#287DC8" stroke-width="15"/>
+<line x1="307" y1="99.5" x2="407" y2="99.5" stroke="#287DC8" stroke-width="15"/>
+<line x1="105" y1="149.5" x2="205" y2="149.5" stroke="#287DC8" stroke-width="15"/>
+<line x1="307" y1="149.5" x2="407" y2="149.5" stroke="#287DC8" stroke-width="15"/>
+<path d="M290 313.5H457.5V382.5H255.5V348C255.5 328.946 270.946 313.5 290 313.5Z" stroke="#287DC8" stroke-width="15"/>
+<path d="M340.673 404.05L322.5 414.83V348.5H367.5V415.05L348.233 403.995L344.437 401.817L340.673 404.05Z" fill="white" stroke="#227AC7" stroke-width="15"/>
+</svg>
