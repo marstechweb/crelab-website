@@ -1605,10 +1605,12 @@ form input.white[type="reset"] {
  * Header Styles
  */
 .site-header {
+  background: white;
   position: relative;
   z-index: 9;
 }
 .site-header.collapsed-nav {
+  background: none;
   position: absolute;
   top: 50px;
   width: 100%;
