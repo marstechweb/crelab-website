@@ -8,14 +8,13 @@
       content="width=device-width, initial-scale=1.0,maximum-scale=1"
     />
 
-    <title>Services : Science Labs</title>
+    <title>Biosketch : CRE Lab</title>
 
     <!-- Loading third party fonts -->
-    <link
-      href="http://fonts.googleapis.com/css?family=Roboto:300,400,700|"
-      rel="stylesheet"
-      type="text/css"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet" type="text/css" >
+  <!-- <link href="http://fonts.googleapis.com/css?family=Roboto:300,400,700|" rel="stylesheet" type="text/css" /> -->
     <link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css" />
     <link
       rel="stylesheet"
@@ -48,18 +47,17 @@
               <button class="menu-toggle"><i class="fa fa-bars"></i></button>
               <ul class="menu">
                 <li class="home menu-item">
-                  <a href="index.html"
-                    ><img src="images/home-icon.png" alt="Home"
-                  /></a>
+                  <a href="index.html"><img src="images/home-icon.png" alt="Home" /></a>
                 </li>
-                <li class="menu-item"><a href="about.html">About</a></li>
-                <li class="menu-item current-menu-item">
-                  <a href="services.html">Services</a>
-                </li>
+                <li class="menu-item  current-menu-item"><a href="biosketch.html">Biosketch</a></li>
+                <li class="menu-item"><a href="people.html">People</a></li>
+                <li class="menu-item"><a href="publications.html">Publications</a></li>
+                <li class="menu-item"><a href="research-interests.html">Research Interests</a></li>
+                <li class="menu-item"><a href="facilities.html">Facilities</a></li>
                 <li class="menu-item">
-                  <a href="projects.html">Our projects</a>
+                  <a href="gallery.html">Gallery</a>
                 </li>
-                <li class="menu-item"><a href="contact.html">Contact</a></li>
+                <li class="menu-item"><a href="news-recognitions.html">News Recognitions</a></li>
               </ul>
             </nav>
 
@@ -68,7 +66,7 @@
         </div>
       </header>
 
-      <div class="page-head" data-bg-image="images/page-head-2.jpg">
+      <div class="page-head" data-bg-image="images/header-bg.jpg">
         <div class="container">
           <h2 class="page-title">Biosketch</h2>
         </div>
@@ -79,28 +77,15 @@
           <div class="container">
             <div class="row">
               <div class="col-md-8">
-                <h2 class="section-title">Eiusmod tempor incididunt labore</h2>
-                <p>
-                  Corrupti quos dolores et quas molestias excepturi sint
-                  occaecati cupiditate non provident, similique sunt culpa.
-                  omnis iste natus error sit voluptatem accusantium doloremque
-                  laudantium, totam rem aperiam, eaque ipsa quae.
-                </p>
-
-                <p>
-                  perspiciatis unde omnis iste natus error sit voluptatem
-                  accusantium doloremque laudantium, totam rem aperiam, eaque
-                  ipsa quae ab illo inventore veritatis et quasi architecto
-                  beatae vitae dicta sunt explicabo ipsam voluptatem quia
-                  voluptas sit aspernatur aut odit aut fugit, sed quia
-                  consequuntur magni dolores eos qui ratione voluptatem.
-                </p>
+                <figure>
+                  <img src="images/picprofpant.JPG" alt="" />
+                </figure>
               </div>
               <div class="col-md-4">
                 <h2 class="section-title">
                   K.K. Pant <br />(Ph.D., IIT Kanpur)
                 </h2>
-                <ul class="has-border">
+                <ul class="has-border biosketch-list">
                   <li>
                     <a
                       >Petrotech Chair (Federation of Indian Petroleum
@@ -138,7 +123,7 @@
             <div class="boxed-icon">
               <img src="images/Education.svg" alt="" class="icon" />
               <h3>Education</h3>
-              <ul>
+              <ul class="biosketch-list">
                 <li>PhD (1997) IIT- Kanpur</li>
                 <li>M. Tech (1989) IIT - Kanpur</li>
                 <li>B. Tech (1987) HBTI - Kanpur</li>
@@ -152,7 +137,7 @@
                 class="icon"
               />
               <h3>Administrative Positions</h3>
-              <ul>
+              <ul class="biosketch-list">
                 <li>2021- till now Present Dean Faculty I I T Delhi</li>
                 <li>
                   2018-2021 Head, Department of Chemical Engineering, IITD
@@ -171,7 +156,7 @@
             <div class="boxed-icon">
               <img src="images/ShortIntro.svg" alt="" class="icon" />
               <h3>Short Introduction</h3>
-              <p>
+              <p class="text-property">
                 Prof. K. K. Pant is currently the Petrotech (FIPI) Chair
                 Professor and Head of Chemical Engineering Department at IIT
                 Delhi. He also serves as Adjunct faculty at University of
@@ -203,7 +188,7 @@
             <div class="boxed-icon">
               <img src="images/ResearchAreas.svg" alt="" class="icon" />
               <h3>Research Area</h3>
-			  <ul>
+			  <ul class="biosketch-list">
 				  <li>
 					Heterogeneous Green Catalysis
 				  </li>
@@ -230,7 +215,7 @@
             <div class="boxed-icon">
               <img src="images/ProfessionalAffiliations.svg" alt="" class="icon" />
               <h3>Professional Affiliations</h3>
-              <ul>
+              <ul class="biosketch-list">
 				<li>
 					Adjunct Professor, University of Saskatchewan, Canada
 				</li>
@@ -262,7 +247,7 @@
 			<div class="boxed-icon">
 				<img src="images/HonoursAwards.svg" alt="" class="icon" />
 				<h3>Honours/Awards</h3>
-				<ul>
+				<ul class="biosketch-list">
 				  <li>
 					Guest Editor of Festschrift issue in Chemical Engineering Processing–Process Intensification (December 2021)
 				  </li>
@@ -300,7 +285,7 @@
 			  <div class="boxed-icon">
 				<img src="images/InvitedTalks.svg" alt="" class="icon" />
 				<h3>Invited Talks</h3>
-				<ul>
+				<ul class="biosketch-list">
 				  <li>
 					5th International conference on Sustainable Energy and Environmental Challenge (V SEEC),Production of Blue Hydrogen: Challenges and Opportunities
 				  </li>
@@ -351,7 +336,7 @@
 			  <div class="boxed-icon">
 				<img src="images/CoursesTaught.svg" alt="" class="icon" />
 				<h3>Courses Taught</h3>
-				<ul>
+				<ul class="biosketch-list">
 				  <li>
 					Transport Phenomena
 				  </li>
@@ -375,18 +360,6 @@
 			  </div>
           </div>
         </div>
-
-        <div class="fullwidth-block" data-bg-color="#edf2f4">
-          <div class="container">
-            <div class="subscribe-form">
-              <h2>Join our newsletter</h2>
-              <form action="#">
-                <input type="text" placeholder="Enter your email" />
-                <input type="submit" value="Subscribe" />
-              </form>
-            </div>
-          </div>
-        </div>
       </main>
       <!-- .main-content -->
 
@@ -395,68 +368,62 @@
           <div class="row">
             <div class="col-md-3">
               <div class="widget">
-                <h3 class="widget-title">Our address</h3>
-                <strong>Company name INC</strong>
-                <address>592 Avenue Street, Los Angeles, CA 90012</address>
-                <a href="tel:+1 800 931 812">+1 800 931 812</a> <br />
-                <a href="mailto:office@companyname.com"
-                  >office@companyname.com</a
-                >
+                <h3 class="widget-title">Our address Lab - 1</h3>
+                <strong>Catalytic Reaction Engineering Lab</strong>
+                <address>Room 185, First Floor, Block 2, <br> Department of Chemical Engineering, <br>
+                  Indian Institute of Technology Delhi (IITD), <br> Hauz Khas, New Delhi 110016, India
+                </address>
+  
+                <a href="tel:+911126596177">Phone: +91-11-2659 6177</a> <br>
+                <a href="tel:+911126581120">Fax: +91-11-2658 1120</a> <br>
+                <a href="tel:+911126596172">Phone &amp Fax: +91-11-2659 6172</a> <br>
+  
               </div>
             </div>
             <div class="col-md-3">
               <div class="widget">
-                <h3 class="widget-title">Press room</h3>
-                <ul class="arrow-list">
-                  <li><a href="#">Accusantium doloremque</a></li>
-                  <li><a href="#">Laudantium totam aperiam</a></li>
-                  <li><a href="#">Eaque ipsa quae illo inventore</a></li>
-                  <li><a href="#">Veritatis et quasi architecto</a></li>
-                  <li><a href="#">Vitae dicta sunt explicabo</a></li>
-                </ul>
+                <h3 class="widget-title">Our address Lab - 2</h3>
+                <strong>Green and Sustainable Engineering Lab</strong>
+                <address>1-C Block, First Floor, Near IBM Parking <br> Department of Chemical Engineering,
+                  <br> Indian Institute of Technology Delhi (IITD), <br> Hauz Khas, New Delhi 110016,
+                  India</address>
+  
+                <a href="tel:+911126596177">Phone: +91-11-2659 6177</a> <br>
+                <a href="tel:+911126581120">Fax: +91-11-2658 1120</a> <br>
+                <a href="tel:+911126596172">Phone &amp Fax: +91-11-2659 6172</a> <br>
               </div>
             </div>
             <div class="col-md-3">
               <div class="widget">
-                <h3 class="widget-title">Research summary</h3>
-                <ul class="arrow-list">
-                  <li><a href="#">Accusantium doloremque</a></li>
-                  <li><a href="#">Laudantium totam aperiam</a></li>
-                  <li><a href="#">Eaque ipsa quae illo inventore</a></li>
-                  <li><a href="#">Veritatis et quasi architecto</a></li>
-                  <li><a href="#">Vitae dicta sunt explicabo</a></li>
-                </ul>
+                <h3 class="widget-title">Our address Lab - 3</h3>
+                <strong>Waste to Wealth Technologies Lab</strong>
+                <address>Micromodel Lab, CRDT Complex <br> Indian Institute of Technology Delhi (IITD), <br>
+                  Hauz Khas, New Delhi 110016, India</address>
+  
+                <a href="tel:+911126596177">Phone: +91-11-2659 6177</a> <br>
+                <a href="tel:+911126581120">Fax: +91-11-2658 1120</a> <br>
+                <a href="tel:+911126596172">Phone &amp Fax: +91-11-2659 6172</a> <br>
               </div>
             </div>
             <div class="col-md-3">
               <div class="widget">
-                <h3 class="widget-title">Social media</h3>
-                <p>
-                  Deserunt mollitia animi id est laborum dolorum fuga harum
-                  quidem rerum facilis.
-                </p>
+                <h3 class="widget-title">Get in Touch</h3>
+                <p>Email is on below mentioned email-id</p>
                 <div class="social-links">
-                  <a href="#"><i class="fa fa-facebook"></i></a>
-                  <a href="#"><i class="fa fa-twitter"></i></a>
-                  <a href="#"><i class="fa fa-google-plus"></i></a>
-                  <a href="#"><i class="fa fa-pinterest"></i></a>
+                  <a href="mailto:kkpant@chemical.iitd.ac.in"><i class="fa fa-envelope"></i></a>
+                  <a href="mailto:dr.kkpant@gmail.com"><i class="fa fa-envelope"></i></a>
                 </div>
               </div>
             </div>
-          </div>
-          <!-- .row -->
-
+          </div> <!-- .row -->
+  
           <p class="colophon">
-            copyright 2014 Company name. Designed by
-            <a
-              href="http://www.vandelaydesign.com/"
-              title="Designed by VandelayDesign.com"
-              target="_blank"
-              >VandelayDesign.com</a
-            >. All rights reserved
+            Designed by
+            <a href="https://www.marstech.co.in/" title="Designed by Marstech" target="_blank">Marstech</a>. All
+            rights
+            reserved
           </p>
-        </div>
-        <!-- .container -->
+        </div> <!-- .container -->
       </footer>
     </div>
 
