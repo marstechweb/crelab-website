@@ -262,7 +262,7 @@ html {
 }
 
 body {
-  color: #8e9ca5;
+  color: #1a1a1a;
   font-family: "Roboto", "Open Sans", sans-serif;
   font-weight: 300;
   line-height: 1.5;
@@ -291,7 +291,7 @@ ol {
 
 a {
   text-decoration: none;
-  color: #69acc7;
+  color: #2179c6;
 }
 
 address {
@@ -300,6 +300,10 @@ address {
 
 p {
   margin-top: 0;
+}
+
+.text-property {
+  text-align: justify;
 }
 
 .vertical-center {
@@ -313,6 +317,11 @@ p {
 .vertical-center-fig {
   height: 350px;
   position: relative;
+}
+
+.biosketch-list li{
+  text-align: justify;
+  padding-bottom: 10px;
 }
 
 form input,
@@ -335,7 +344,7 @@ form input[type="submit"],
 form button,
 form input[type="reset"] {
   border: none;
-  background-color: #69acc7;
+  background-color: #2179c6;
 }
 
 /*
@@ -350,7 +359,7 @@ form input[type="reset"] {
   padding: 10px 25px;
   border-radius: 5px;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
-  color: #8e9ca5;
+  color: #1a1a1a;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
 }
@@ -370,7 +379,7 @@ form input[type="reset"] img {
 form input[type="submit"]:hover,
 form button:hover,
 form input[type="reset"]:hover {
-  box-shadow: inset 0 0 100px #69acc7;
+  box-shadow: inset 0 0 100px #2179c6;
   color: white;
 }
 .button.white,
@@ -1683,14 +1692,14 @@ form input.white[type="reset"] {
   border: none;
   font-size: 20px;
   font-size: 1.3333333333em;
-  color: #8e9ca5;
+  color: #1a1a1a;
   outline: none;
   display: none;
   padding: 20px;
 }
 .main-navigation .menu-toggle:hover,
 .main-navigation .menu-toggle:active {
-  color: #69acc7;
+  color: #2179c6;
 }
 @media screen and (max-width: 990px) {
   .main-navigation .menu-toggle {
@@ -1728,7 +1737,7 @@ form input.white[type="reset"] {
   font-weight: 400;
   padding: 32px 20px;
   display: block;
-  color: #8e9ca5;
+  color: #1a1a1a;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
   border-bottom: 2px solid transparent;
@@ -1736,8 +1745,8 @@ form input.white[type="reset"] {
 }
 .main-navigation .menu .menu-item.current-menu-item a,
 .main-navigation .menu .menu-item:hover a {
-  color: #69acc7;
-  border-bottom: 2px solid #69acc7;
+  color: #2179c6;
+  border-bottom: 2px solid #2179c6;
 }
 
 .mobile-navigation {
@@ -1756,7 +1765,7 @@ form input.white[type="reset"] {
   list-style: none;
 }
 .mobile-navigation .menu a {
-  color: #8e9ca5;
+  color: #1a1a1a;
   padding: 15px 20px;
   display: block;
   text-align: center;
@@ -1865,7 +1874,7 @@ form .hero .slide-content input[type="reset"] {
   top: 0;
   bottom: 0;
   margin: auto;
-  background: #69acc7;
+  background: #2179c6;
   border-radius: 50%;
   opacity: 0;
   -webkit-transition: 0.3s ease;
@@ -2025,7 +2034,7 @@ form .cta input[type="reset"] {
 .subscribe-form form input[type="text"]:focus,
 .subscribe-form form input[type="email"]:hover,
 .subscribe-form form input[type="email"]:focus {
-  border-color: #69acc7;
+  border-color: #2179c6;
 }
 .subscribe-form form input[type="submit"] {
   position: absolute;
@@ -2088,13 +2097,13 @@ form .cta input[type="reset"] {
   position: absolute;
   left: 20px;
   top: 30px;
-  color: #69acc7;
+  color: #2179c6;
   text-align: center;
   line-height: 2;
 }
 .checked-box h3 {
   font-weight: 300;
-  color: #69acc7;
+  color: #2179c6;
   margin-bottom: 10px;
 }
 
@@ -2113,7 +2122,7 @@ ol.circle li:before {
   content: counter(circled);
   width: 70px;
   height: 70px;
-  border: 4px solid #69acc7;
+  border: 4px solid #2179c6;
   display: block;
   border-radius: 50%;
   text-align: center;
@@ -2124,13 +2133,13 @@ ol.circle li:before {
   position: absolute;
   top: 0;
   left: 0;
-  color: #69acc7;
+  color: #2179c6;
 }
 ol.circle li h3 {
   font-size: 16px;
   font-size: 1.0666666667em;
   font-weight: 400;
-  color: #69acc7;
+  color: #2179c6;
   margin-bottom: 10px;
 }
 
@@ -2259,7 +2268,7 @@ ol.circle li h3 {
   }
 }
 .project-list .project .project-content {
-  border: 1px solid #dde7ea;
+  border: 1px solid #C0C0C0;
   border-radius: 5px;
   padding: 20px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
@@ -2273,14 +2282,33 @@ ol.circle li h3 {
   width: 100%;
   height: auto;
 }
+
 .project-list .project .project-title {
   font-size: 18px;
   font-size: 1.2em;
   font-weight: 300;
 }
 
+.project-list .project .project-image-gal {
+  margin-bottom: 20px;
+}
+.project-list .project .project-image-gal img {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+  height: 250px;
+}
+.project-list .project-col4 .project-image-gal {
+  margin-bottom: 20px;
+}
+.project-list .project-col4 .project-image-gal img {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
 .project-list .project-col4 .project-content {
-  border: 1px solid #dde7ea;
+  border: 1px solid #C0C0C0;
   height: 650px;
   border-radius: 5px;
   padding: 20px;
@@ -2312,7 +2340,7 @@ ol.circle li h3 {
 }
 
 .styled-table thead tr {
-  background-color: #69acc7;
+  background-color: #2179c6;
   color: #ffffff;
   text-align: left;
 }
@@ -2331,7 +2359,7 @@ ol.circle li h3 {
 }
 
 .styled-table tbody tr:last-of-type {
-  border-bottom: 2px solid #69acc7;
+  border-bottom: 2px solid #2179c6;
 }
 
 /*
@@ -2381,13 +2409,13 @@ ol.circle li h3 {
 
 .tabset > label:hover,
 .tabset > input:focus + label {
-  color: #69acc7;
+  color: #2179c6;
 }
 
 .tabset > label:hover::after,
 .tabset > input:focus + label::after,
 .tabset > input:checked + label::after {
-  background: #69acc7;
+  background: #2179c6;
 }
 
 .tabset > input:checked + label {
@@ -2477,7 +2505,7 @@ figure img {
 }
 
 .boxed-content {
-  border: 1px solid #dde7ea;
+  border: 1px solid #C0C0C0;
   padding: 20px;
   margin-bottom: 30px;
 }
@@ -2534,15 +2562,15 @@ hr.dotted {
   border-radius: 50%;
   border: 1px solid #cddbe1;
   text-align: center;
-  color: #69acc7;
+  color: #2179c6;
   display: inline-block;
   padding-top: 8px;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
 }
 .social-links a:hover {
-  background: #69acc7;
-  border-color: #69acc7;
+  background: #2179c6;
+  border-color: #2179c6;
   color: white;
 }
 
@@ -2556,12 +2584,12 @@ hr.dotted {
   padding: 10px 0 10px 10px;
 }
 .arrow-list li a {
-  color: #8e9ca5;
+  color: #1a1a1a;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
 }
 .arrow-list li a:hover {
-  color: #69acc7;
+  color: #2179c6;
 }
 .arrow-list.has-border li {
   border-bottom: 1px solid #edf2f4;
@@ -2633,7 +2661,7 @@ hr.dotted {
 }
 
 body {
-  background: #eee;
+  background: #fff;
 }
 
 .brands {
