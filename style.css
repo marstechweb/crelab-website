@@ -319,7 +319,7 @@ p {
   position: relative;
 }
 
-.biosketch-list li{
+.biosketch-list li {
   text-align: justify;
   padding-bottom: 10px;
 }
@@ -2269,7 +2269,7 @@ ol.circle li h3 {
   }
 }
 .project-list .project .project-content {
-  border: 1px solid #C0C0C0;
+  border: 1px solid #c0c0c0;
   border-radius: 5px;
   padding: 20px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
@@ -2309,7 +2309,7 @@ ol.circle li h3 {
   height: auto;
 }
 .project-list .project-col4 .project-content {
-  border: 1px solid #C0C0C0;
+  border: 1px solid #c0c0c0;
   height: 650px;
   border-radius: 5px;
   padding: 20px;
@@ -2506,7 +2506,7 @@ figure img {
 }
 
 .boxed-content {
-  border: 1px solid #C0C0C0;
+  border: 1px solid #c0c0c0;
   padding: 20px;
   margin-bottom: 30px;
 }
@@ -2557,7 +2557,7 @@ hr.dotted {
   margin: 20px 0;
 }
 
-.social-links-center{
+.social-links-center {
   text-align: center;
   margin: 10px;
 }
@@ -2696,7 +2696,7 @@ body {
 
 .brands_item img {
   max-width: 100%;
-  height:80px;
+  height: 80px;
 }
 
 .brands_nav {
