@@ -1959,9 +1959,9 @@ form .hero .slide-content input[type="reset"] {
 .post .featured-image iframe {
   max-width: 100%;
   border-radius: 5px;
-  width: 100%;
-  height: auto;
+  width: 566px;
   display: block;
+  height: 376px;
 }
 .post .entry-title {
   font-size: 24px;
@@ -2274,6 +2274,16 @@ ol.circle li h3 {
   padding: 20px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
+
+.project-list .project .project-content-fac {
+  border: 1px solid #c0c0c0;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  height: 380px;
+}
+
+
 .project-list .project .project-image {
   margin-bottom: 20px;
 }
