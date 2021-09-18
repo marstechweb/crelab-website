@@ -1663,7 +1663,7 @@ form input.white[type="reset"] {
 }
 .branding .logo {
   margin-right: 10px;
-  max-width: 100px;
+  max-width: 90px;
 }
 .branding .logo-type .site-title {
   margin: 0 0 5px;
@@ -1959,9 +1959,8 @@ form .hero .slide-content input[type="reset"] {
 .post .featured-image iframe {
   max-width: 100%;
   border-radius: 5px;
-  width: 566px;
+  width: 100%;
   display: block;
-  height: 376px;
 }
 .post .entry-title {
   font-size: 24px;
@@ -2589,6 +2588,7 @@ hr.dotted {
   border-color: #2179c6;
   color: white;
 }
+
 
 .arrow-list {
   list-style: none;
