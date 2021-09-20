@@ -2253,6 +2253,22 @@ ol.circle li h3 {
     clear: both;
   }
 }
+
+@media screen and (min-width: 1300px) {
+  .hero .slides li {
+    width: 100%;
+    margin-right: -100%;
+    float: left;
+    /* min-height: 100%; */
+    padding-bottom: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 720px;
+    background-size: contain;
+    /* vertical-align: text-top; */
+    /* vertical-align: -webkit-baseline-middle; */
+  }
+}
 @media screen and (max-width: 480px) {
   .project-list .project {
     width: 100%;
@@ -2285,7 +2301,6 @@ ol.circle li h3 {
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   height: 380px;
 }
-
 
 .project-list .project .project-image {
   margin-bottom: 20px;
@@ -2592,7 +2607,6 @@ hr.dotted {
   border-color: #2179c6;
   color: white;
 }
-
 
 .arrow-list {
   list-style: none;
