@@ -324,6 +324,12 @@ p {
   padding-bottom: 10px;
 }
 
+.biosketch-list h4 {
+  padding-top: 20px;
+  font-size: 1.3em;
+}
+
+
 form input,
 form textarea,
 form select {
