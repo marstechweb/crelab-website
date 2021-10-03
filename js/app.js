@@ -42,6 +42,8 @@
       controlNav: true,
     });
 
+    $('#maindiv').width($('#div1').width());
+    
     var map = $(".map");
     var latitude = map.data("latitude");
     var longitude = map.data("longitude");
