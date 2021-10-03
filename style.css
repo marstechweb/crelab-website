@@ -2186,6 +2186,15 @@ ol.circle li h3 {
   .boxed-icon {
     padding-left: 30px;
   }
+
+  .hero .slides li {
+    min-height: 400px;
+    padding-bottom: 100px;
+    padding-top: 200px;
+    margin-top: 50%;
+    background-size: contain;
+    background-repeat-y: no-repeat;
+  }
 }
 .boxed-icon .icon {
   position: absolute;
@@ -2193,8 +2202,23 @@ ol.circle li h3 {
   top: 30px;
   max-width: 8%;
 }
+
+.boxed-icon .icon2 {
+  position: absolute;
+  left: 30px;
+  top: 30px;
+  max-width: 10%;
+}
 @media screen and (max-width: 640px) {
   .boxed-icon .icon {
+    position: relative;
+    left: 0;
+    top: 0;
+    margin: 0 auto 20px;
+    display: block;
+    text-align: center;
+  }
+  .boxed-icon .icon2 {
     position: relative;
     left: 0;
     top: 0;
@@ -2426,6 +2450,26 @@ ol.circle li h3 {
   font-weight: 600;
 }
 
+@media screen and (max-width: 640px) {
+  .tabset > label {
+    position: relative;
+    display: inline-block;
+    padding: 10px 10px 25px;
+    border: 1px solid transparent;
+    border-bottom: 0;
+    cursor: pointer;
+    font-weight: 600;
+  }
+
+  .project-list .project-col4 .project-content {
+    border: 1px solid #c0c0c0;
+    height: 720px;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 10%);
+  }
+}
+
 .tabset > label::after {
   content: "";
   position: absolute;
@@ -2469,8 +2513,40 @@ ol.circle li h3 {
   padding-left: 50px;
 }
 
+.tab-panel ol {
+  padding-right: 50px;
+  padding-left: 50px;
+  text-align: justify;
+}
+
 .tab-panel li {
   padding-bottom: 10px;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 90px;
+  background-color: #edf2f4;
+  color: #2179c6;
+  text-align: center;
+  border-radius: 6px;
+  padding: 2px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  margin-left: -45px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
 }
 
 /*
@@ -2716,6 +2792,22 @@ body {
 .brands_slider {
   height: 100%;
   margin-top: 60px;
+}
+
+@media screen and (max-width: 640px) {
+  .brands_slider_container {
+    height: 100px;
+    border: solid 1px #e8e8e8;
+    box-shadow: 0px 1px 5px rgb(0 0 0 / 10%);
+    padding-left: 10px;
+    padding-right: 10px;
+    background: #fff;
+  }
+
+  .brands_slider {
+    height: 50%;
+    margin-top: 10px;
+  }
 }
 
 .brands_item {

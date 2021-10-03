@@ -6,7 +6,8 @@
       brandsSlider.owlCarousel({
         loop: true,
         autoplay: true,
-        autoplayTimeout: 2000,
+        autoplaySpeed: 150,
+        autoplayTimeout: 50000,
         nav: false,
         dots: false,
         autoWidth: true,
